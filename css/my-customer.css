@@ -1,0 +1,152 @@
+.banner-logo{
+  width: 100%;
+}
+.space10{
+  width: 100%;
+  height: 10px;
+}
+.space20{
+  width: 100%;
+  height: 20px;
+}
+.space30{
+  width: 100%;
+  height: 30px;
+}
+.space40{
+  width: 100%;
+  height: 40px;
+}
+.space50{
+  width: 100%;
+  height: 50px;
+}
+.space60{
+  width: 100%;
+  height: 70px;
+}
+.space70{
+  width: 100%;
+  height: 10px;
+}
+.space80{
+  width: 100%;
+  height: 80px;
+}
+.space90{
+  width: 100%;
+  height: 90px;
+}
+.space100{
+  width: 100%;
+  height: 100px;
+}
+.space110{
+  width: 100%;
+  height: 110px;
+}
+.space120{
+  width: 100%;
+  height: 120px;
+}
+.space130{
+  width: 100%;
+  height: 130px;
+}
+.space140{
+  width: 100%;
+  height: 140px;
+}
+.space150{
+  width: 100%;
+  height: 150px;
+}
+.space200{
+  width: 100%;
+  height: 200px;
+}
+.slide-image{
+  width: 100%;
+}
+
+#footer{
+  background-color: rgba(0,0,0,0.8);
+  height: 130px;
+  color: white;
+  margin-top: 10%;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+.accordian{
+  width: 705px;
+  height: 333px;
+  overflow:hidden;
+
+  margin: 100px auto;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0px 8px 6px -6px black;
+}
+.accordian ul{
+
+}
+.accordian li{
+  position: relative;
+  display:block;
+  width:140px;
+  float: left;
+
+  border-left: 1px solid #888;
+  -webkit-box-shadow: 0 0 25px 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 25px 10px rgba(0,0,0,0.5);
+
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+
+.accordian ul:hover li{
+  width: 50px;
+}
+
+.accordian ul li:hover{
+  width:500px;
+}
+
+.accordian li img{
+  display: block;
+}
+
+.image_title{
+  background: rgba(0,0,0,0.5);
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:500px;
+
+}
+
+.image_title a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding:20px;
+  font-size:16px;
+  
+}
+.card-image{
+  height: 300px;
+}
+.card-block{
+  height: 200px;
+}
+.form-block input {
+  width: 60%;
+}
+.form-block textarea {
+  width: 60%;
+}
